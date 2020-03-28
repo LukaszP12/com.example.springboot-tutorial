@@ -1,12 +1,11 @@
-package com.example.springboottutorial.demo;
+package com.example.springboottutorial.demo.student;
 
-import org.springframework.stereotype.Controller;
+import com.example.springboottutorial.demo.student.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

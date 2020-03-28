@@ -1,4 +1,4 @@
-package com.example.springboottutorial.demo;
+package com.example.springboottutorial.demo.student;
 
 public class Student {
 
@@ -19,5 +19,12 @@ public class Student {
         return studentName;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentId=" + studentId +
+                ". studentName=" + studentName + '\'' +
+                '}';
+    }
 
 }
